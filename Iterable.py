@@ -1,4 +1,4 @@
-# for x in "Gibbu":
-#     print(x)
+for x in "Gibbu":
+    print(x)
 
     

@@ -1,5 +1,5 @@
-# command = ("")
-# While True: 
-#     command = input(">")
-#     if command.upper() == "QUIT":
-#         break
+command = ""
+while True:
+    command = input(">")
+    if command.upper() == "QUIT":
+        break
