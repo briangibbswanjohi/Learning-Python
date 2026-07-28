@@ -1,39 +1,39 @@
-# #multiline strings
-# multiline_string = '''I am an SAP Consultant and I enjoy learning at large.
-# I often do feel with the right motivation and a defined goal it can be very rewarding.
-# 30 days of python has been a walk in the park so far'''
-# print(multiline_string)
+#multiline strings
+multiline_string = '''I am an SAP Consultant and I enjoy learning at large.
+I often do feel with the right motivation and a defined goal it can be very rewarding.
+30 days of python has been a walk in the park so far'''
+print(multiline_string)
 
-# #string concatenation
-# first_name = 'Brian'
-# second_name = 'Wanjohi'
-# space = ' '
-# fullname = first_name + space + second_name
-# print(fullname)
-# print(len(fullname))    
+#string concatenation
+first_name = 'Brian'
+second_name = 'Wanjohi'
+space = ' '
+fullname = first_name + space + second_name
+print(fullname)
+print(len(fullname))    
 
-# #Escape sequence in strings
-# print('I hope everyone is enjoying the Python Challenge.\nAre you ?') # line break
-# print('Days\tTopics\tExercises') # adding tab space or 4 spaces
-# print('Day 1\t5\t5')
-# print('Day 2\t6\t20')
-# print('Day 3\t5\t23')
-# print('Day 4\t1\t35')
-# print('This is a backslash  symbol (\\)') # To write a backslash
-# print('In every programming language it starts with \"Hello, World!\"') # to write a double quote inside a single quote
+#Escape sequence in strings
+print('I hope everyone is enjoying the Python Challenge.\nAre you ?') # line break
+print('Days\tTopics\tExercises') # adding tab space or 4 spaces
+print('Day 1\t5\t5')
+print('Day 2\t6\t20')
+print('Day 3\t5\t23')
+print('Day 4\t1\t35')
+print('This is a backslash  symbol (\\)') # To write a backslash
+print('In every programming language it starts with \"Hello, World!\"') # to write a double quote inside a single quote
 
-# #formatted string
-# first_name = "Brian"
-# second_name = "Wanjohi"
-# language = "Python"
-# formated_string = "I am %s %s. I am learning %s" %(first_name, second_name, language)
-# print(formated_string)
+#formatted string
+first_name = "Brian"
+second_name = "Wanjohi"
+language = "Python"
+formated_string = "I am %s %s. I am learning %s" %(first_name, second_name, language)
+print(formated_string)
 
-# radius = 7
-# pi = 3.14
-# area_of_a_circle = pi * radius ** 2 
-# formated_string = "The area of a circle with a radius %d is pi %.2f." %(radius, area_of_a_circle)
-# print(formated_string)
+radius = 7
+pi = 3.14
+area_of_a_circle = pi * radius ** 2 
+formated_string = "The area of a circle with a radius %d is pi %.2f." %(radius, area_of_a_circle)
+print(formated_string)
 
 #string formating in python 3 
 first_name = "Brian"
