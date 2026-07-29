@@ -135,6 +135,39 @@ challenge = 'thirty days of python'
 print(challenge.find('y')) #rfind does the reverse 
 
 #Break! 
+#Day 4 exercise 
+text = "Thirty" + " " + "Days" + " " "Of" + " " + "Python"
+print(text)
+
+text = "Coding" + " " + "For" + " " + "All"
+print(text)
+company = "Coding for all"
+print(company)
+# print(len(company))
+print(company.upper())
+print(company.lower())
+
+print(company.capitalize())
+print(company.title())
+print(company.swapcase())
+
+company = "coding for all"
+last_two_words = company[7:14]
+print(last_two_words)
+
+company = "coding for all"
+print(company.find('cooking'))
+print(company.replace('coding', 'Python'))
+print(company.split(" "))
+print(company [11])
+
+
+
+
+
+
+
+
 
 
 
